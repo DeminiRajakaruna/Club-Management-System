@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="494.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopcwr.AdvisorController">
+   <children>
+      <Button layoutX="408.0" layoutY="373.0" mnemonicParsing="false" onAction="#btnAdvisorLoginClicked" prefHeight="73.0" prefWidth="208.0" text=" Log In ">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Button>
+      <Label layoutX="256.0" layoutY="267.0" text=" Password">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="386.0" layoutY="174.0" prefHeight="35.0" prefWidth="230.0" />
+      <TextField layoutX="386.0" layoutY="267.0" prefHeight="35.0" prefWidth="230.0" />
+      <ImageView fitHeight="195.0" fitWidth="216.0" layoutX="30.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="280.0" layoutY="174.0" text="User ID ">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Text layoutX="75.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Advisor Login Page" wrappingWidth="553.336669921875">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="67.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Advisor" wrappingWidth="98.13671875">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="492.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oopcwr.AdvisorHome">
+   <children>
+      <Text layoutX="135.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to HomePage !">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="219.0" layoutY="130.0" mnemonicParsing="false" onAction="#btnClubCreationClicked" prefHeight="51.0" prefWidth="237.0" text="Club Creation">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="224.0" layoutY="206.0" mnemonicParsing="false" onAction="#btnEventSchedulingClicked" text="Event Scheduling">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="204.0" layoutY="279.0" mnemonicParsing="false" onAction="#btnAttTrackingClicked" text="Attendance Tracking">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="265.0" layoutY="358.0" mnemonicParsing="false" onAction="#btnReportingClicked" text="Reporting">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
